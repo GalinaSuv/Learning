@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+   <head>
+       <title>Оформление заказа</title>
+	   
+       <meta charset="utf-8">
+   </head>
+	
+   <body>
+      <h1>Оформление заказа</h1>
+	  
+	  <form action="#" method="GET">
+	  <fieldset>
+		<legend>Доставка и оплата</legend>
+		<h4>Способ доставки</h4>
+		<label><input type="radio" name="f1" value="Доставка курьером">Доставка курьером</label><br>
+		<label><input type="radio" name="f1" value="Самовывоз">Самовывоз</label><br>
+		<h4>Способ оплаты</h4>
+		<label><input type="radio" name="f2" value="Карта">Карта</label><br>
+		<label><input type="radio" name="f2" value="Наличные">Наличные</label><br>
+	  </fieldset>
+	  
+	  <fieldset>
+		<legend>Ваши контакты</legend>
+			<input type="text" name="f3">Имя<br>
+			<input type="tel" name="f4">Телефон<br>
+			<input type="email" name="f5">E-mail<br>
+			<input type="checkbox" name="f6" value="checked">Согласен на рекламу<br>
+					
+		</legend>
+		</fieldset>
+		
+		<fieldset>
+		<legend>Подарок за первый заказ</legend>
+		<select name="gift">
+			<option selected disabled>Выберите подарок</option>
+			<option value="Подарок 1">Подарок 1</option>
+			<option value="Подарок 2">Подарок 2</option>
+			<option value="Подарок 3">Подарок 3</option>
+			<option value="Подарок 4">Подарок 4</option>
+		</select><br>
+		</fieldset>
+		<button type="submit">Отправить</button>
+		<button type="reset">Очистить форму</button>
+		
+	   </form>
+   </body>	  
+</html> 
